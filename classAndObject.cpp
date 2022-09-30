@@ -27,9 +27,20 @@ int main() {
     employee2.company = "Therap BD";
     employee2.age = 26;
 
+    Employee employee3;
+    employee3.name = "Masud Parvez";
+    employee3.company = "Enosis";
+    employee3.age = 24;
+
     employee1.DisplayEmployeeDetails();
+
     cout << endl; 
+
     employee2.DisplayEmployeeDetails();
+
+    cout << endl; 
+
+    employee3.DisplayEmployeeDetails();
 
 
     return 0;
